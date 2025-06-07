@@ -1,9 +1,10 @@
 import 'dart:typed_data';
 import 'dart:math' as math;
+import 'dart:ui';
 import 'package:get/get.dart';
 import 'package:google_ml_kit/google_ml_kit.dart';
 import 'package:image/image.dart' as img;
-import '../config/app_config.dart';
+import 'package:university_face_auth/core/config/config_App.dart';
 import '../utils/notification_service.dart';
 
 enum FaceQuality { poor, fair, good, excellent }
@@ -73,7 +74,7 @@ class FaceDetectionService extends GetxService {
       
       final inputImage = InputImage.fromBytes(
         bytes: imageBytes,
-        metadata: const InputImageMetadata(
+        metadata:  InputImageMetadata(
           size: Size(640, 480),
           rotation: InputImageRotation.rotation0deg,
           format: InputImageFormat.nv21,

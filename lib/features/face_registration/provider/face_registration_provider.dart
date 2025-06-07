@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 import 'package:camera/camera.dart';
 import 'package:get/get.dart';
+import 'package:university_face_auth/core/theme/app_theme.dart';
 import '../../../core/services/camera_service.dart';
 import '../../../core/services/face_detection_service.dart';
 import '../../../core/services/storage_service.dart';

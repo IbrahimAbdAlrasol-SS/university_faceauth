@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import '../config/app_config.dart';
+import 'package:university_face_auth/core/config/config_App.dart';
 
 class StorageService extends GetxService {
   late GetStorage _storage;

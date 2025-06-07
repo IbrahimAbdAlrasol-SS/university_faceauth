@@ -1,13 +1,16 @@
 import 'dart:async';
 import 'dart:typed_data';
+import 'dart:ui';
 import 'package:camera/camera.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:university_face_auth/core/config/config_App.dart';
+import 'package:university_face_auth/core/theme/app_theme.dart';
 import '../../../core/services/camera_service.dart';
 import '../../../core/services/face_detection_service.dart';
 import '../../../core/services/storage_service.dart';
 import '../../../core/utils/notification_service.dart';
 import '../../../core/routes/app_routes.dart';
-import '../../../core/config/app_config.dart';
 import '../../auth/model/user_model.dart';
 
 enum VerificationState {

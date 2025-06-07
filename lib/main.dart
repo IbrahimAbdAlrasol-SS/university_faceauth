@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'core/config/app_config.dart';
+import 'package:university_face_auth/core/config/config_App.dart' show AppConfig;
 import 'core/routes/app_routes.dart';
 import 'core/theme/app_theme.dart';
 import 'core/services/storage_service.dart';

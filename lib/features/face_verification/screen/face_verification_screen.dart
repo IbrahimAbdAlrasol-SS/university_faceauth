@@ -3,11 +3,11 @@ import 'package:get/get.dart';
 import 'package:camera/camera.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:lottie/lottie.dart';
+import 'package:university_face_auth/features/face_verification/provider/face_verification_provider.dart';
+import 'package:university_face_auth/features/face_verification/widget/verification_overlay.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../../../core/widgets/custom_button.dart';
 import '../../../../core/services/face_detection_service.dart';
-import '../../provider/face_verification_provider.dart';
-import '../../widget/verification_overlay.dart';
 
 class FaceVerificationScreen extends StatelessWidget {
   const FaceVerificationScreen({super.key});

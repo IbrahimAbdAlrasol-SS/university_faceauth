@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:typed_data';
+import 'dart:ui';
 import 'package:camera/camera.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';

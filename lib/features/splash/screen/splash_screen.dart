@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:animate_do/animate_do.dart';
+import 'package:university_face_auth/core/config/config_App.dart';
 import '../../../core/theme/app_theme.dart';
-import '../../../core/config/app_config.dart';
 import '../../../core/routes/app_routes.dart';
 import '../../../core/services/storage_service.dart';
 
